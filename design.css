@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: : 0;
+	box-sizing: border-box;
+}
+
+section{
+	height: 100vh;
+	background-color: LightGreen;
+}
+
+.score{
+	color: FireBrick ;
+	font-size: 28px;
+	height: 20vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.score p{
+	text-align: center; 
+	padding: 10px;
+}
+
+.desc{
+	color: Red ;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.desc h1{
+	font-size: 45px;
+}
+
+.desc button{
+	width: 150px;
+	height: 50px;
+	font-size: 25px;
+	background-color: Yellow;
+
+}
+
+.match{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.choice{
+	color: DarkBlue ;
+	text-align: center;
+	font-size: 50px;
+	height: 20vh; 
+}
+
+.hands{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 20vh;
+}
+.option{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 20vh;
+	cursor: pointer;
+}
+
+.p-hand{
+	transform: rotatey(180deg);
+}
+
+div.fadeOut{
+	opacity: 0;
+	pointer-events: none;
+}
+
+div.fadeIn{
+	opacity: 1;
+	pointer-events: all;	
+}
+
+
+
+
+
+
