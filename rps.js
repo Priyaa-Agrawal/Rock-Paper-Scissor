@@ -68,11 +68,11 @@ function playMatch(option){
     const  coption = cchoice[computerNumber];
 
      if (coption == "rock") 
-             chand.src = './image/rock.jpg';
+             chand.src = './rock.jpg';
        else if(coption == "paper") 
-             chand.src = './image/paper.jpg';
+             chand.src = './paper.jpg';
         else
-            chand.src = './image/scissor.jpg';
+            chand.src = './scissor.jpg';
         console.log(option);
         console.log(coption);
         
@@ -81,21 +81,21 @@ function playMatch(option){
 
 function paper(){
     const phand  = document.querySelector(".p-hand");
-    phand.src = './image/paper.jpg';
+    phand.src = './paper.jpg';
     var option='paper';
     playMatch(option);
 
 }
 function rock(){
     const phand  = document.querySelector(".p-hand");
-    phand.src = './image/rock.jpg';
+    phand.src = './rock.jpg';
     var option='rock';
     playMatch(option);
 
 }
 function scissor(){
      const phand  = document.querySelector(".p-hand");
-    phand.src = './image/scissor.jpg';
+    phand.src = './scissor.jpg';
     var option='scissor';
     playMatch(option);
 
